@@ -16,4 +16,37 @@ knitr::opts_chunk$set(
 )
 ```
 
-Vignettes are long form documentation commonly included in packages. Because they are part of the distribution of the package, they need to be as compact as possible. The `html_vignette` output type provides a custom style sheet (and tweaks some options) to ensure that the resulting html is as small as possible. The `html_vignette` format:
+# spanishRentidadesIGN
+
+El paquete `spanishRentidadesIGN` es simplemente un paquete de datos. Su propósito es facilitar el uso del Nomenclátor del IGN en R.
+
+
+# Descripción
+
+El Nomenclátor del IGN de MUNICIPIOS Y ENTIDADES DE POBLACIÓN tiene 5 tablas. He puesto cada una en un fichero .rda.
+
+- IGN_nomencla_muni
+
+- IGN_nomencla_prov
+
+- IGN_nomencla_entidades
+
+- IGN_nomencla_eatims
+
+- IGN_nomencla_condominios
+
+
+Información detallada la encontrarás [aquí](http://www.ign.es/web/ign/portal/rcc-nomenclator-nacional). Descargaras los datos originales en un fichero .zip. Allí hay un pdf con toda la información.
+
+
+# Uso
+
+Solo hay que cargar el paquete en memoria y llamar  a los objetos
+
+
+```{r, eval = FALSE}
+devtools::install_github("perezp44/spanishRentidadesIGN")
+library(spanishRentidadesIGN)
+municipios <- IGN_nomencla_muni
+```
+
