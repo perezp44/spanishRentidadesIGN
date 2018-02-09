@@ -4,10 +4,10 @@
 \name{spanishRentidadesIGN-package}
 \alias{spanishRentidadesIGN}
 \alias{spanishRentidadesIGN-package}
-\title{spanishRentidadesIGN: Facilita el uso del Nomneclator de entidades del IGN}
+\title{spanishRentidadesIGN: Facilita el uso del Nomneclator de entidades del IGN.}
 \description{
 El package spanishRentidadesIGNMore facilita el uso en R de los datos del
-NOMENCLATOR DE MUNICIPIOS Y ENTIDADES DE POBLACIÃ“N del Instituto Geografico nacional (IGN)
+NOMENCLATOR DE MUNICIPIOS Y ENTIDADES DE POBLACIÃ“N del Instituto Geografico nacional (IGN).
 }
 \seealso{
 Useful links:

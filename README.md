@@ -22,6 +22,10 @@ El Nomenclátor del IGN de MUNICIPIOS Y ENTIDADES DE POBLACIÓN tiene 5 tablas. 
 
 Información detallada la encontrarás [aquí](http://www.ign.es/web/ign/portal/rcc-nomenclator-nacional). Descargaras los datos originales en un fichero .zip. Allí hay un pdf con toda la información.
 
+Además generé un df con las capitales de provincia:
+
+-   capitales\_prov
+
 Uso
 ===
 

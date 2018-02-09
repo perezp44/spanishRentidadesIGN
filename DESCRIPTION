@@ -1,14 +1,15 @@
 Package: spanishRentidadesIGN
 Type: Package
-Title: Facilita el uso del Nomneclator de entidades del IGN
+Title: Facilita el uso del Nomneclator de entidades del IGN.
 Version: 0.1.0
 Authors@R: person("Pedro J.", "Perez", , "pedro.j.perez@uv.es", c("aut", "cre"))
 Maintainer: Pedro J. Perez <pjperez@uv.es>
 Description: El package spanishRentidadesIGNMore facilita el uso en R de los datos del 
-    NOMENCLATOR DE MUNICIPIOS Y ENTIDADES DE POBLACIÓN del Instituto Geografico nacional (IGN)
+    NOMENCLATOR DE MUNICIPIOS Y ENTIDADES DE POBLACIÓN del Instituto Geografico nacional (IGN).
 License: CC-BY 4.0 + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 2.10)
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1
 Suggests: 
